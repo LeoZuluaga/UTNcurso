@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var numeros = prompt()
+        var mayor = 0
+        var array = numeros.split(",")
+        
+        for (var i = 0; i < array.length; i++) {
+            
+           var numero=Number(array[i]);
+          
+           
+           if (numero>mayor) {
+            mayor=numero
+           } 
+          
+        }
+        document.write("el mayor de " + numeros + " es " + mayor);
+    </script>
+</body>
+
+</html>

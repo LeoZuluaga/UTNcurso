@@ -1,0 +1,28 @@
+footer{
+    background-color: beige;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .footergaleria{ background-color: beige;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+   width: 100%;
+    
+  
+  }
