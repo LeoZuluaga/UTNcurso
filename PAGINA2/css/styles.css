@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,200&display=swap');
 
 * {
@@ -299,4 +300,307 @@ h2{
 .holderc{
     max-width: 960px;
     margin: 30px auto;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,200&display=swap');
+
+* {
+    padding: unset;
+    margin: unset;
+
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+    
+    
+}
+
+
+
+
+    .cuerpo{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        
+        align-items: center;
+        background-image: url("../img/d7aa4eca-6c57-45a2-b807-4d29a4aea95f.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+       
+
+     
+      
+    
+
+}
+
+
+nav {
+    width: 100%;
+    background-color: #EBC150;
+    
+    height: 100%;
+
+
+}
+
+.barra ul {
+    padding: 0;
+    display: flex;
+
+    list-style: none;
+
+}
+
+.barra li {
+    float: left;
+    text-decoration: none;
+
+    padding: 5px 12px;
+    letter-spacing: 2px;
+    font-size: 27px;
+    padding-top: 13%;
+
+}
+
+.logo img {
+    /*
+    position: absolute;
+    */
+    object-fit: cover;
+    
+}
+
+.logo {
+    
+    align-self: flex-start;
+    display: flex;
+    /* 
+    height: 187.5px;
+    width: 150px;
+
+ */
+}
+
+
+
+nav a {
+
+
+
+    color: black;
+
+
+
+
+}
+
+
+.barra {
+    display: flex;
+    justify-content: center;
+}
+
+.barranavegacion img {
+    max-height: 150px;
+}
+.barranavegacion{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.barra nav ul li a:hover {
+    background-color: black;
+}
+.barra nav ul li {
+    flex-grow: 1;
+}
+.barra nav ul li a{
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+.cabecera{
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+.cabecera h1{
+	font-size: 40px;
+}
+.cabecera a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: #fff;
+}
+.cabecera a:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.destinos{
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+.lugares{
+	display: inline;
+	text-align: center;
+}
+.lugares h2{
+	color: red;
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 100px;
+	padding: 30px 30px;
+	background-color: #000;
+}
+.lugares a{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	border-radius: 100px;
+	padding: 12px 30px;
+	background-color: black;
+}
+
+
+.footergaleria{ background-color: beige;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+   width: 100%;
+    
+
+}
+
+
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.servicio{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.servicio .info h4{
+    color: #2e64a1;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 10px;
+}
+.servicio .info p{
+    font-size: 15px;
+}
+
+.servicio img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+h2{
+    
+    color: black;
+    font-weight: bold;
+   
+    
+}
+
+
+
+.cartelservicios{
+    margin-top: 20px;
+}
+
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div{
+    width: 100%;
+}
+.datos p{
+    font-size: 16px;
+}
+.datos ul li{
+    font-size: 15px;
+    
+}
+.datos h2{
+    font-weight: 400;
+    color: #2e64a1;
+}
+.formulario p{
+    display: flex;
+}
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+.formulario p:nth-child(4){
+    align-items: flex-start;
+}
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+.sub{
+    background: #6da9ed;
+    box-shadow: 0 0 10px gray;
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+    
+}
+.sub:hover{
+    background-color: #2e64a1;
+}
+
+.holderc{
+    max-width: 960px;
+    margin: 30px auto;
+>>>>>>> 5138f8f47bb16106e0d5363f7a0f6081fb066c91
 }
